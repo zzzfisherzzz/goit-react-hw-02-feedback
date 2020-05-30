@@ -1,0 +1,53 @@
+.divB {
+  display: flex;
+}
+
+.btn {
+  width: 90px;
+  display: block;
+  font-family: arial;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  border: #a7b3c5 1px solid;
+  color: #a7b3c5;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+  transition: 0.5s;
+  border-radius: 0px;
+}
+
+.btn:hover {
+  top: 5px;
+  transition: 0.5s;
+  color: #10ff58;
+  border: #10ff58 1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:active {
+  color: #000;
+  border: #1a1a1a 1px solid;
+  transition: 0.07s;
+  background-color: #fff;
+}
+
+.neutraBtn {
+  composes: btn;
+}
+
+.neutraBtn:hover {
+  color: orange;
+  border: orange 1px solid;
+}
+.badBtn {
+  composes: btn;
+}
+
+.badBtn:hover {
+  color: red;
+  border: red 1px solid;
+}
